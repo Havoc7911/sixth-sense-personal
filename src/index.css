@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+.smooth-scroll {
+  scroll-behavior: smooth;
+}
+
+.text-10px {
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+.text-11px {
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.tracking-0\.2em {
+  letter-spacing: 0.2em;
+}
+
+.rounded-2\.5rem {
+  border-radius: 2.5rem;
+}
+
+.shadow-0015px\[rgba\(249\,115\,22\,0\.2\)\] {
+  box-shadow: 0 0 15px rgba(249, 115, 22, 0.2);
+}
+
+.shadow-0020px\[rgba\(249\,115\,22\,0\.3\)\] {
+  box-shadow: 0 0 20px rgba(249, 115, 22, 0.3);
+}
+
+.shadow-xl {
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
